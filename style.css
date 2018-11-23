@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    height: 37.8px;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    line-height: 1.04;
+    margin-right: 200px;
+    font-weight: 300;
+
+}
+
+/*Search - START*/
+.search{
+    height: 100%;
+    width: 686px;
+    position: relative;
+
+}
+.search input {
+    border: 1px solid black;
+    padding: 19px;
+}
+.search .input {
+    width: 100%;
+    height: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.search .input:focus {
+    background: white;
+    color: black;
+    outline: none;
+}
+.search .input::placeholder {
+    font-size: 16px;
+}
+input[type="search"] {
+    -webkit-appearance: none;
+    font-size: 16px;
+}
+.search img{
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+/*Search - STOP*/
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.nav div{
+    margin-left: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.point img{
+    margin-right: 5px;
+}
+.nav span{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-variant: small-caps;
+    line-height: 1.625;
+    font-weight: 400;
+}
+
