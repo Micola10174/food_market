@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.clear{
+    content: '';
+    display: table;
+    clear: both;
+}
+.wrapper{
+    height: 100vh;
+    background: rgba(0, 0, 0, .5) url("./images/img 2.png") no-repeat fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.container{
+    width: 1170px;
+    padding: 10px;
+    margin: auto;
+    /*background: white;*/
+}
+
+.logo{
+    float: left;
+}
+.logo p{
+    font-size: 27px;
+    color: white;
+}
+.btn-seller{
+    float: right;
+}
+.btn-seller > a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    outline: none;
+    font-size: 18px;
+    background: #4d7e2c url("./images/fermer.png") no-repeat 10px center;
+    background-size: 25px;
+    padding: 5px 25px 5px 45px;
+}
+
+
+#content{
+    /*background: black;*/
+    width: 960px;
+    height: 330px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    line-height: 25px;
+}
+#content > h1{
+    padding: 5px;
+}
+#content > p{
+    margin-top: 30px;
+}
+#content > form{
+    /*background: grey;*/
+    margin-top: 50px;
+}
+#content > form label{
+    font-size: 23px;
+    display: block;
+    padding: 15px 0;
+}
+#content > form input{
+    width: 100%;
+    height: 50px;
+    font-size: 23px;
+}
