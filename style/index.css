@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Comic;
+    src: url('../font/911Fonts.com_ComicSansMSRegular__-_911fonts.com_fonts_BpCS.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,15 +16,15 @@
 }
 .wrapper{
     height: 100vh;
-    background: rgba(0, 0, 0, .5) url("./images/img 2.png") no-repeat fixed;
+    background: rgba(0, 0, 0, .5) url("../images/img\ 2.png") no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
 }
 .container{
     width: 1170px;
-    padding: 10px;
     margin: auto;
-    /*background: white;*/
+    padding: 20px 10px;
+    border: 1px solid black;
 }
 
 .logo{
@@ -28,6 +33,7 @@
 .logo p{
     font-size: 27px;
     color: white;
+    font-family: 'Comic', sans-serif;
 }
 .btn-seller{
     float: right;
@@ -39,14 +45,13 @@
     font-weight: 700;
     outline: none;
     font-size: 18px;
-    background: #4d7e2c url("./images/fermer.png") no-repeat 10px center;
+    background: #4d7e2c url("../images/fermer.png") no-repeat 10px center;
     background-size: 25px;
     padding: 5px 25px 5px 45px;
 }
 
 
 #content{
-    /*background: black;*/
     width: 960px;
     height: 330px;
     position: absolute;
