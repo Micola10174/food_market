@@ -17,9 +17,8 @@
 }
 .container{
     width: 1170px;
-    padding: 10px;
     margin: auto;
-    /*background: white;*/
+    padding: 20px 10px;
 }
 
 .logo{
@@ -46,7 +45,6 @@
 
 
 #content{
-    /*background: black;*/
     width: 960px;
     height: 330px;
     position: absolute;
