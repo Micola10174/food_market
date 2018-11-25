@@ -3,11 +3,32 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .wrapper{
     height: 100vh;
-    background: rgba(0, 0, 0, .5) url("../images/img\ 2.png") no-repeat fixed;
+    background: rgba(0, 0, 0, .5) url("../images/Layer 2.png") no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
 }
+.container{
+    width: 1170px;
+    margin: auto;
+    /*padding: 20px 10px;*/
+    border: 1px solid red;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header{
+    padding: 15px;
+}
+.container > h3{
+    text-align: center;
+}
+
