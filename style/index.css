@@ -16,7 +16,7 @@
 }
 .wrapper{
     height: 100vh;
-    background: rgba(0, 0, 0, .5) url("../images/img\ 2.png") no-repeat fixed;
+    background: rgba(0, 0, 0, .5) url("../images/img 2.png") no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
 }
@@ -41,14 +41,17 @@
     display: inline-block;
     color: white;
     text-decoration: none;
-    font-weight: 700;
+    /*font-weight: 700;*/
     outline: none;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 500;
     background: #4d7e2c url("../images/fermer.png") no-repeat 10px center;
     background-size: 25px;
     padding: 5px 25px 5px 45px;
 }
-
+.btn-seller a:first-letter{
+    font-size: 20px;
+}
 
 #content{
     width: 960px;
@@ -63,9 +66,15 @@
     text-align: center;
     padding: 17px;
     line-height: 25px;
+    font-weight: 300;
 }
 #content > h1{
     padding: 5px;
+    font-size: 30px;
+    font-weight: 400;
+}
+#content > h1:first-letter{
+    font-size: 40px;
 }
 #content > p{
     margin-top: 30px;
@@ -75,13 +84,22 @@
     margin-top: 50px;
 }
 #content > form label{
-    font-size: 23px;
+    font-size: 19px;
     display: block;
     padding: 15px 0;
+    font-weight: 400;
+}
+#content > form label:first-letter{
+    font-size: 28px;
 }
 #content > form input{
     width: 100%;
     height: 50px;
-    font-size: 23px;
+    font-size: 25px;
     padding-left: 10px;
+    font-weight: 600;
+    color: #a2a2a2;
+    font-variant: small-caps;
 }
+
+
