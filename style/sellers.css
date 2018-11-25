@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    height: 100vh;
+    background: rgba(0, 0, 0, .5) url("../images/img\ 2.png") no-repeat fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+}
