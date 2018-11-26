@@ -14,37 +14,71 @@
 
 .wrapper{
     height: 100vh;
-    background: rgba(0, 0, 0, .5) url("../images/Layer 2.png") no-repeat fixed;
+    background: rgba(0, 0, 0, .7) url("../images/Layer 2.png") no-repeat fixed;
     background-blend-mode: darken;
     background-size: cover;
 }
 .container{
     width: 1170px;
-    margin: auto;
-    /*padding: 20px 10px;*/
-    border: 1px solid red;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    margin: 50px auto;
+    padding: 20px 0;
 }
 
-header{
-    padding: 15px;
+#header{
+    padding: 20px;
 }
 .container{
     text-align: center;
 }
-.container > p{
+.container >  p{
     font-size: 22px;
 }
-.container > p:nth-child(2){
-    margin-top: 100px;
+section{
+    margin: 50px 0;
+    padding: 20px 0;
 }
-h2{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    text-align: center;
+section > p{
+    padding: 5px;
+    font-size: 19px;
 }
+.block-register > a{
+    background: #83f468;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 400px;
+    text-decoration: none;
+    color: black;
+    margin-top: 25px;
+}
+section > form > input{
+    width: 250px;
+    height: 35px;
+    color: black;
+    padding-left: 10px;
+    font-size: 16px;
+}
+section > form > input::placeholder{
+    font-weight: bold;
+}
+
+section > form > a{
+    width: 150px;
+    height: 35px;
+    background: #83f468;
+    display: inline-block;
+    line-height: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-weight: 300;*/
+    /*text-align: center;*/
+
