@@ -20,12 +20,12 @@
     background-blend-mode: darken;
     background-size: cover;
 }
-.container{
+
+#navigation{
     width: 1170px;
     margin: auto;
     padding: 20px 10px;
 }
-
 .logo{
     float: left;
 }
@@ -52,7 +52,10 @@
 .btn-seller a:first-letter{
     font-size: 20px;
 }
-
+.container{
+    margin: auto;
+    padding: 20px 10px;
+}
 #content{
     width: 960px;
     height: 330px;

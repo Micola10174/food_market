@@ -1,8 +1,14 @@
+@font-face {
+    font-family: Roboto;
+    src: url('../font/Roboto-Light.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: white;
 }
 
@@ -28,7 +34,17 @@
 header{
     padding: 15px;
 }
-.container > h3{
+.container{
     text-align: center;
 }
-
+.container > p{
+    font-size: 22px;
+}
+.container > p:nth-child(2){
+    margin-top: 100px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
