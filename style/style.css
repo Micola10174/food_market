@@ -6,8 +6,11 @@
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
-ol{
+ol, ul{
     list-style: none;
+}
+a{
+    color: black;
 }
 body {
     width: 100%;
@@ -114,7 +117,7 @@ input[type="search"] {
     justify-content: space-between;
 }
 nav{
-    width: 18%;
+    width: 19%;
 }
 nav ol{
     width: 100%;
@@ -161,7 +164,6 @@ section{
 
 /*Content - START*/
 .content{
-    border: 1px solid red;
     width: 74.76%;
     font-variant: small-caps;
 }
@@ -171,23 +173,108 @@ section{
     margin-bottom: 70px;
 }
 section h1{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
+
+/*БЛОК ТОВАРУ - START*/
+
 .articles{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-variant: small-caps;
 }
 .articles article{
     width: 270px;
-    border: 1px solid red;
     height: 350px;
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 11px 3px #eaeaea;
 }
+.articles article div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.articles .img {
+    height: 42%;
+    width: 270px;
+    background-color: blue;
+    /*display: inline-block;*/
+    overflow: hidden;
+}
+.articles .img img {
+    border: none;
+    width: 100%;
+}
+.articles .name {
+    height: 11%;
+    border-bottom: dashed 1px black;
+
+}
+.articles .name h2{
+    padding: 7px 0 0 5px;
+    font-size: 18px;
+}
+.articles .inform {
+    height: 33%;
+    width: 97%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+    align-items: flex-start;
+}
+.articles .inform-{
+    font-size: 14px;
+    height: 20%;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.articles .inform > span {
+    font-size: 24px;
+    color: rgb(194, 23, 25);
+    line-height: 1.13;
+    margin:  0 0 15px 0;
+    font-weight: 300;
+}
+.articles .seller {
+    width: 94%;
+    height: 14%;
+    padding: 0 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    text-decoration: underline;
+    background-color: #f6f6f6;
+}
+.articles .seller:last-child{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.articles .seller span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.articles .seller span img{
+    margin-right: 5px;
+}
+/*БЛОК ТОВАРУ - STOP*/
+
 .filter{
     width: 100%;
-    margin-bottom: 25px;
+    margin: 10px 0 25px 0;
+    font-size: 14px;
 }
 .filter ol{
     font-weight: 500;
