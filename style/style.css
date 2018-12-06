@@ -283,19 +283,25 @@ footer{
     width: 100%;
     height: 100px;
     background-color: #ebebeb;
-
 }
-footer .wrapper{
-    height: 77%;
+footer .footer-wrapper{
+    width: 1200px;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 12px 20px;
     font-size: 11px;
     font-weight: 500;
-    flex-direction: row;
+    margin: auto;
 }
-footer .wrapper article:first-child{
-    margin-right: 126px;
+footer .footer-wrapper > .right-article{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-wrapper > .right-article > article{
+    width: 270px;
+}
+footer .footer-wrapper > .left-article{
+    width: 25%;
 }
 footer a{
     color: rgb(0, 0, 0);
