@@ -107,6 +107,7 @@ input[type="search"] {
 /*Header - STOP*/
 /*Main - START*/
 .main{
+    min-height: 524px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
