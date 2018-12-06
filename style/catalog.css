@@ -25,7 +25,7 @@
     margin-right: 6px;
 }
 .recom-prod .name-star span{
-    font-size: 15;
+    font-size: 15px;
     margin: 3px 5px 0 0;
 }
 .recom-prod .count{
@@ -33,7 +33,6 @@
     align-items: center;
     justify-content: space-around;
     height: 8%;
-    width: 74%;
     padding: 0 35px;
     font-size: 13px;
 
