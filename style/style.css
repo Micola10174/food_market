@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -30,6 +31,7 @@ header {
     flex-direction: row;
     align-items: center;
     margin: 20px 0 50px 0;
+    background: lightblue;
 }
 .logo{
     font-family: 'Roboto', sans-serif;
@@ -181,7 +183,8 @@ section h1{
 }
 .articles article{
     width: 270px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    background: lightblue;
     height: 350px;
     margin-bottom: 25px;
 }
