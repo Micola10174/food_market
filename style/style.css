@@ -250,6 +250,7 @@ section h1{
     font-size: 15px;
     text-decoration: none;
     font-weight: 400;
+    flex-direction: row;
 }
 .articles .seller span{
     display: flex;
