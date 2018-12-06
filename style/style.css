@@ -175,7 +175,9 @@ section h1{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     font-variant: small-caps;
+    /*background: red;*/
 }
 .articles article{
     width: 270px;
