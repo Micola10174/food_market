@@ -63,3 +63,43 @@
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
 }
+.check{
+    margin-top: 50px;
+    font-variant: small-caps;
+}
+.check img{
+    width: 74px;
+}
+.check div{
+    background-color: #e8f5fe;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 13px;
+    font-weight: 400;
+}
+.check p:first-child{
+    margin-bottom: 15px;
+}
+.check form{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.check form input {
+    background-color: #63b4ed;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+
+}
+.check form input[value] {
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+    font-weight: 300;
+    font-size: 18px;
+}
+.check form > p{
+    font-weight: bolder;
+    font-size: 12px;
+
+}

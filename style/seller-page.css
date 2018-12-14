@@ -1,0 +1,72 @@
+nav{
+    margin-top: -25px;
+    width: 21%;
+}
+nav ol{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: 13px;
+    font-variant: small-caps;
+}
+nav ol li{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+nav ol li a{
+    font-weight: 400;
+    text-decoration: underline;
+    margin: 0 2px;
+    font-size: 13px;
+}
+nav ol li:not(#active) a:hover{
+    color: black;
+    transition: all 0.3s;
+}
+#actives a{
+    color: #908b8b !important;
+}
+nav .img {
+    height: 42%;
+    width: 250px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+nav .img img {
+    border: none;
+    width: 100%;
+    margin: 0;
+}
+.content p{
+    margin: 10px 0;
+    font-weight: 400;
+}
+.content .galar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.content .galar .img{
+    height: 42%;
+    margin-right: 20px;
+    width: 24.90%;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.content .img img {
+    border: none;
+    width: 100%;
+    margin: 0;
+}
+.content h2{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.content > a{
+    margin-top: 5px;
+    font-size: 13px;
+}
