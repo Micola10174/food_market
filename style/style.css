@@ -351,7 +351,6 @@ footer ol > li{
 }
 #dialog-wrapper .dialog-window{
     width: 960px;
-    height: 300px;
     background: white;
 }
 #dialog-wrapper .dialog-window .dialog-header{
@@ -369,25 +368,56 @@ footer ol > li{
 }
 
 #dialog-wrapper .dialog-content{
-    /*background: lightgreen;*/
     padding: 5px 20px;
 }
 #dialog-wrapper .dialog-content .dialog-content-item{
-    /*height: 70px;*/
-    border: 1px solid red;
     margin: 10px 0;
     display: flex;
 }
+#dialog-wrapper .dialog-content .dialog-content-item .item-info{
+    flex-grow: 3;
+}
 .dialog-content-item > div{
-    background: lightgreen;
     margin: 2px;
     flex-grow: 1;
 }
 .dialog-content-item .item-info{
     display: flex;
 }
+.dialog-content-item .item-info .item-title{
+    padding-left: 20px;
+}
 
-.dialog-content-item .item-count{
+.dialog-content-item .wrapper-item-count, .item-price, .item-delete{
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100px;
 }
+
+.dialog-content-item .wrapper-item-count .item-count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.wrapper-item-count .item-count #countItem{
+    font-size: 18px;
+}
+
+.dialog-content-item .item-price #priceItem{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#dialog-wrapper .dialog-window .dialog-footer{
+
+}
+#dialog-wrapper .dialog-window .dialog-footer .price-total{
+    height: 200px;
+    background: lightgreen;
+    margin: 10px 10px;
+}
+
