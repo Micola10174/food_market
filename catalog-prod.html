@@ -17,7 +17,7 @@
             </form>
             <div class="nav">
                 <div class="point"><img src="images/point.png" alt="Местонахождение"><span>Киев</span></div>
-                <div class="shopping_cart"><img src="images/shopping_cart.png" alt="Корзина"></div>
+                <div class="shopping_cart" id="basket"><img src="images/shopping_cart.png" alt="Корзина"></div>
             </div>
         </header>
         <div class="main">
@@ -211,6 +211,54 @@
             </div>
         </div>
     </footer>
-
+    <div id="dialog-wrapper">
+        <div class="dialog-window">
+            <div class="dialog-header">
+                <h2>Корзина</h2>
+                <a href="#" id="btn-close-dialog"><img src="images/close.png" alt=""></a>
+            </div>
+            <div class="dialog-content">
+                <div class="dialog-content-item">
+                    <div class="item-info">
+                        <img src="images/item.png" alt="">
+                        <div class="item-title">
+                            <p>Мед в сотах</p>
+                            <p>Продавец: Гончаров Виталий</p>
+                        </div>
+                    </div>
+                    <div class="wrapper-item-count">
+                        <div class="item-count">
+                            <p><img src="images/prev.png" alt="" id="btnDecrement"></p>
+                            <p id="countItem"></p>
+                            <p><img src="images/next.png" alt="" id="btnIncrement"></p>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <p id="priceItem">
+                            <span>грн</span>
+                        </p>
+                    </div>
+                    <div class="item-delete">
+                        <a href="#">Удалить</a>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="dialog-footer">
+                <div class="wrapper-price-total">
+                    <div class="price-total">
+                        <p>Итого:</p>
+                        <p>75
+                            <span>грн</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="block-checkout">
+                    <a href="#">Оформить заказ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 </html>

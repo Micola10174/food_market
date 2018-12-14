@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -334,4 +336,115 @@ footer span {
 }
 footer ol > li{
     margin: 5px 0;
+}
+
+
+
+/*Dialog window basket*/
+
+#dialog-wrapper{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#dialog-wrapper .dialog-window{
+    width: 960px;
+    background: white;
+}
+#dialog-wrapper .dialog-window .dialog-header{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+#dialog-wrapper .dialog-window .dialog-header img{
+    width: 40px;
+}
+
+#dialog-wrapper .dialog-window .dialog-header h2{
+    margin: 5px 15px;
+}
+
+#dialog-wrapper .dialog-content{
+    padding: 5px 20px;
+}
+#dialog-wrapper .dialog-content .dialog-content-item{
+    margin: 10px 0;
+    display: flex;
+}
+#dialog-wrapper .dialog-content .dialog-content-item .item-info{
+    flex-grow: 3;
+}
+.dialog-content-item > div{
+    margin: 2px;
+    flex-grow: 1;
+}
+.dialog-content-item .item-info{
+    display: flex;
+}
+.dialog-content-item .item-info .item-title{
+    padding-left: 20px;
+}
+
+.dialog-content-item .wrapper-item-count, .item-price, .item-delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.dialog-content-item .wrapper-item-count .item-count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.wrapper-item-count .item-count #countItem{
+    font-size: 18px;
+}
+
+.dialog-content-item .item-price #priceItem{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#dialog-wrapper .dialog-window .dialog-footer{
+
+}
+#dialog-wrapper .dialog-window .dialog-footer > div{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 10px;
+}
+#dialog-wrapper .dialog-window .dialog-footer .price-total{
+    display: flex;
+    width: 301px;
+    margin: 10px 105px;
+}
+#dialog-wrapper .dialog-window .dialog-footer .price-total p:nth-child(1){
+    width: 135px;
+}
+#dialog-wrapper .dialog-window .dialog-footer .price-total p {
+    font-weight: 500;
+    margin: 2px;
+    width: 100px;
+}
+
+#dialog-wrapper .dialog-window .dialog-footer .block-checkout a{
+    width: 250px;
+    background: red;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    margin: 10px 40px;
 }
