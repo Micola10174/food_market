@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -415,9 +417,31 @@ footer ol > li{
 #dialog-wrapper .dialog-window .dialog-footer{
 
 }
-#dialog-wrapper .dialog-window .dialog-footer .price-total{
-    height: 200px;
-    background: lightgreen;
+#dialog-wrapper .dialog-window .dialog-footer > div{
+    display: flex;
+    justify-content: flex-end;
     margin: 10px 10px;
 }
+#dialog-wrapper .dialog-window .dialog-footer .price-total{
+    display: flex;
+    width: 301px;
+    margin: 10px 105px;
+}
+#dialog-wrapper .dialog-window .dialog-footer .price-total p:nth-child(1){
+    width: 135px;
+}
+#dialog-wrapper .dialog-window .dialog-footer .price-total p {
+    font-weight: 500;
+    margin: 2px;
+    width: 100px;
+}
 
+#dialog-wrapper .dialog-window .dialog-footer .block-checkout a{
+    width: 250px;
+    background: red;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    margin: 10px 40px;
+}
