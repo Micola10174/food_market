@@ -115,7 +115,7 @@ input[type="search"] {
     justify-content: space-between;
 }
 nav{
-    width: 19%;
+    width: 20%;
 }
 nav ol{
     width: 100%;
@@ -126,7 +126,6 @@ nav ol{
 }
 nav ol li{
     width: 100%;
-    margin-left: -10px;
     padding: 6px 0 6px 10px;
 }
 nav ol li a{
@@ -141,6 +140,9 @@ nav ol li a{
 nav ol li:not(#active) a:hover{
     color: rgb(194, 23, 25);
     transition: all 0.3s;
+}
+#actives {
+    color: #888888;
 }
 nav span:first-letter{
     font-size: 16px;
@@ -162,6 +164,7 @@ section{
 .content{
     width: 74.76%;
     font-variant: small-caps;
+    margin-bottom: 50px;
 }
 section{
     display: flex;
