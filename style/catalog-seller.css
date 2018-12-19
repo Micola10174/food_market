@@ -47,7 +47,7 @@
 .seller-bottom ul li{
     margin-right: 10px;    
 }
-.seller-bottom a{
+.seller-bottom a:not(#select){
     text-decoration: underline;
     font-size: 13px;
 

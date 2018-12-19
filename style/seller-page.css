@@ -39,6 +39,28 @@ nav .img img {
     width: 100%;
     margin: 0;
 }
+nav .seller-inf{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+
+}
+nav .seller-inf span{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+nav .seller-inf ol li{
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.seller-inf p{
+    font-size: 12px;
+}
+
 .content p{
     margin: 10px 0;
     font-weight: 400;
