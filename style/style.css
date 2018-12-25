@@ -525,11 +525,11 @@ footer ol > li{
     display: flex;
     flex-direction: row;
     height: auto;
-    margin: 0 0 20px 5px;
+    margin-bottom: 20px;
 }
 .seller-left{
     overflow: hidden;
-    border-radius: 50px;
+    border-radius: 70px;
     height: 50px;
     width: 50px;
     margin-right: 7px;
@@ -687,7 +687,7 @@ footer ol > li{
     justify-content: space-between;
     font-size: 19px;
     margin-bottom: 20px;
-    padding-left: 5px;
+    margin-left: -10px;
 }
 .seller-bottom ol li {
     padding: 5px;
@@ -876,4 +876,106 @@ form .add-product{
     font-size: 14px;
     width: auto;
     margin-bottom: 2px;
+}
+/*---profile---*/
+.profile-form:not(input){
+    font-family: Roboto-Regular, sans-serif;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.profile-form > label, .profile-form > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.profile-form > label input{
+    width: 160px;
+    height: 25px;
+}
+.profile-form > div > input{
+    font-size: 17px;
+    background-color: #83f468;
+    border: none;
+    padding: 7px 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: "Roboto-Medium", sans-serif;
+}
+.avatar-profile{
+    margin-top: 15px;
+}
+.profile-form > .avatar-profile > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 188px;
+    justify-content: space-between;
+}
+.profile-form .seller-left{
+    height: 60px;
+    width: 60px;
+
+}
+.file_upload{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;
+    height: 2em;
+    line-height: 2em;
+    width: auto;
+    cursor: pointer;
+}
+.file_upload .button, .file_upload > mark{
+    display: block;
+    cursor: pointer
+}
+.file_upload .button{
+    float: right;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 8em;
+    height: 100%;
+    text-align: center;
+    background-color: #83f468;
+    cursor: pointer;
+}
+.file_upload > mark{
+    background: transparent;
+    padding-left: 1em
+}
+.file_upload input[type=file]{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    /*transform: scale(20);*/
+    letter-spacing: 10em;
+    /*-ms-transform: scale(20); */
+    opacity: 0;
+    cursor: pointer
+
+}
+/*---reg-seller---*/
+.reg-seller{
+    margin-left: 40px;
+}
+.reg-seller h2{
+    margin-bottom: 50px;
+}
+.check-box {
+    justify-content: flex-start !important;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.check-box input[type="checkbox"]{
+    width: 15px;
+    border: 5px solid black;
+    margin-right: 10px;
 }
